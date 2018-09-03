@@ -11,8 +11,22 @@
     <script src="assets/js/jsMenuDev.js"></script>
 </head>
 <body>
-    <div id="jsMenu"></div>
-    <textarea></textarea>
-    <button>Generate</button>
+    <div id="jsMenu">
+        <ul>
+            <li>
+                <i>link</i>
+                <input type="text" placeholder="type here">
+            </li>
+            <li>
+                <i>title</i>
+                <input type="text" placeholder="type here">
+            </li>
+        </ul>
+    </div>
+    <textarea placeholder="Design menu and Push 'Export' button. Or paste json string here and push 'Import' button to view menu"></textarea>
+    <span>
+        <button id="generate">Generate</button>
+        <button id="import">Import</button>
+    </span>
 </body>
 </html>
