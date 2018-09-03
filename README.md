@@ -1,8 +1,7 @@
 # JsMenu
---------
-# Hadi mozaffari tabar
-# mozaffariTabar.h@gmail.com
-
+Hadi mozaffari tabar
+mozaffariTabar.h@gmail.com
+-------
 This is the HTML menu generator and reader in json format.
 1. Make your custom menu.
 2. Export json format.
