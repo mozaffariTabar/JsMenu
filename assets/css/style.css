@@ -72,7 +72,7 @@ ul {
     top: 0;
     left: 0;
     margin-left: 210px;
-    /* display: none; */
+    display: none;
 }
 
 ul:first-child {
