@@ -1,5 +1,5 @@
 # JsMenu
-> This is the HTML menu generator and reader in json format. [Demo Page](http://www.hadimozaffari/jmenu)
+> This is the HTML menu generator and reader in json format. [Demo Page](http://www.hadimozaffari/jsMenu)
 
 ## Usage
 1. **Make your custom menu.**
