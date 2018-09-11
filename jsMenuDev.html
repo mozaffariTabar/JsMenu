@@ -7,19 +7,22 @@
     <meta name="author" content="Hadi Mozaffari Tabar">
     <title>JsMenu</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontello.css">
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/jsMenuDev.js"></script>
 </head>
 <body>
+    <p id="help">Click [ link ] to change it</p>
     <div id="jsMenu">
         <ul>
-            <li>
+            <li link="" title="" stat="link">
                 <i>link</i>
-                <input type="text" placeholder="type here">
-            </li>
-            <li>
-                <i>title</i>
-                <input type="text" placeholder="type here">
+                <input type="text" placeholder="http://">
+                <span class="controller">
+                    <i class="icon-right-open-3"></i>
+                    <i class="icon-cancel-3"></i>
+                    <i class="icon-down-open-2"></i>
+                </span>
             </li>
         </ul>
     </div>
